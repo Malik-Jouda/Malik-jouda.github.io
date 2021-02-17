@@ -75,7 +75,13 @@ form button {
   font-size: 14px;
   padding: 12px 25px;
   cursor: pointer;
+  transition: all .3s ease-in-out;
 }
+
+ form button:hover{
+  background-color: #038cca;
+}
+ 
 
 form button:focus {
   outline: none;
@@ -161,6 +167,10 @@ nav.navbar {
   display: inline-block;
   border-radius: 1px;
   font-weight: 400;
+  transition:all .3s ease-in-out;
+}
+.section-cover .section-cover-content a:hover , .section-products .item-product a:hover{
+   background-color: #038cca;
 }
 
 .section-cover .section-cover-details {
@@ -364,6 +374,7 @@ nav.navbar {
   display: inline-block;
   border-radius: 1px;
   font-weight: 400;
+  transition: all .3s ease-in-out;
 }
 .section-products .owl-dots {
   margin-top: 30px !important;

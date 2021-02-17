@@ -599,6 +599,7 @@ nav.navbar {
   text-align: center;
   font-size: 25px;
   cursor: pointer;
+  z-index: 100;
 }
 
 .preloader {

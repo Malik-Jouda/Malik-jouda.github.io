@@ -1,0 +1,100 @@
+body{
+    font-family: 'Inter', sans-serif;
+
+}
+
+.section-testimonial .review i{
+    left: 15px;
+}
+
+.section-header .section-header-title {
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 2px;
+
+}
+
+.features-left .feature-box{
+    text-align: right;
+}
+
+.section-testimonial .review  .avatar-body {
+    margin-left: 15px;
+}
+
+.section-newsletter form button{
+    margin-left: 10px;
+}
+
+.footer-top .footer-link li:not(:last-of-type) a:after {
+    margin-left: 10px;
+
+}
+.section-faqs  .card-header h5:after {
+    right: 0;
+
+}
+
+.contact-information ul li i {
+    margin-right: 5px;
+
+}
+
+.icon-mode{
+    right: 15px;
+
+}
+.section-cover  .section-cover-details  .detail div{
+    margin-right: 8px;
+
+}
+
+.section-about  .section-box-icon {
+    margin-right: 15px;
+
+}
+
+.navbar-nav  .nav-item:not(:first-of-type){
+    margin-left: 10px;
+}
+.section-features .features-right .feature-box-icon{
+    margin-right: 20px;
+}
+.section-features .features-left .feature-box-icon{
+    margin-left: 20px;
+}
+
+input , textarea{
+    padding: 10px 40px 10px 15px;
+}
+
+
+.section-faqs  .card-header h5 {
+    padding-right: 30px;
+
+}
+@media (max-width: 575.98px) {
+    .section-newsletter form button{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav .nav-item:not(:first-of-type){
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .features-left .feature-box .feature-box-icon{
+        margin-left: 0;
+    }
+    .features-left .feature-box .feature-box-icon{
+        margin-right: 20px;
+    }
+
+    .features-left .feature-box{
+        text-align: left;
+    }
+
+
+}

@@ -2,7 +2,7 @@ $(document).ready(function (){
 
     setTimeout(function () {
         $(".preloader").fadeOut(400,"linear");
-    }, 111300);
+    }, 1300);
 
     $('a[href*="#"]').on('click',function (){
         $('html , body').animate(
